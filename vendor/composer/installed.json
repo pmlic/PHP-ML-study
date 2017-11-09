@@ -1,0 +1,54 @@
+[
+    {
+        "name": "php-ai/php-ml",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-ai/php-ml.git",
+            "reference": "f4650c696c94b0a0fb55f11bd4f6422278d876a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/php-ai/php-ml/f4650c696c94b0a0fb55f11bd4f6422278d876a7.zip",
+            "reference": "f4650c696c94b0a0fb55f11bd4f6422278d876a7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.4",
+            "phpunit/phpunit": "^6.0"
+        },
+        "time": "2017-11-06T07:56:37+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Phpml": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arkadiusz Kondas",
+                "email": "arkadiusz.kondas@gmail.com"
+            }
+        ],
+        "description": "PHP-ML - Machine Learning library for PHP",
+        "homepage": "https://github.com/php-ai/php-ml",
+        "keywords": [
+            "Neural network",
+            "artificial intelligence",
+            "computational learning theory",
+            "data science",
+            "feature extraction",
+            "machine learning",
+            "pattern recognition"
+        ]
+    }
+]
