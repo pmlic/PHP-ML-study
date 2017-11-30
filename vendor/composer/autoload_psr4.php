@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'pf\\arr\\' => array($vendorDir . '/nancheng/pfinal-array/src'),
 );

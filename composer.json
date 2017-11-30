@@ -1,5 +1,6 @@
 {
   "require": {
-    "php-ai/php-ml": "dev-master"
+    "php-ai/php-ml": "dev-master",
+    "nancheng/pfinal-array": "v0.2"
   }
 }
