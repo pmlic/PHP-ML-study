@@ -157,3 +157,5 @@
 > php-ML 回归预测算法 使用如  stock.php 
 
 - SVM 支持向量算法  [SVM](./SVR.md)
+
+> php-ML SVR算法实验 使用如  svr.php 
