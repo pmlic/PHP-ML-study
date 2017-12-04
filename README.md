@@ -2,6 +2,7 @@
 
 参考: 
  PHP-ML - 机器学习PHP库 http://doc.celerstar.com/website/soft/php-ml/
+ 
  知乎    http://wow0.cn/2017/11/03/php-ml-apply/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
  
 翻译php-ml列表目录
@@ -152,4 +153,7 @@
   
 > 参考: https://www.cnblogs.com/softlin/p/5815531.html
 
-> php-ML库使用如  car_price.php 
+> php-ML 二乘法算法 使用如  car_price.php 
+> php-ML 回归预测算法 使用如  stock.php 
+
+- SVM 支持向量算法  [SVM](./SVR.md)
