@@ -128,6 +128,8 @@
     
 ```
 
+> 参考: https://www.cnblogs.com/en-heng/p/5719101.html 
+
 - KNN 算法
     
     邻近算法，或者说K最近邻(kNN，k-NearestNeighbor)分类算法是数据挖掘分类技术中最简单的方法之一。
@@ -159,3 +161,8 @@
 - SVM 支持向量算法  [SVM](./SVR.md)
 
 > php-ML SVR算法实验 使用如  svr.php 
+
+-  Apriori算法 关联规则 [Apriori](./Apriori.md)
+
+> php-ML Apriori 关联规则算法 使用如 index.php
+> php-ML Apriori 关联规则算法 使用如 apriori.php
