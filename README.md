@@ -130,6 +130,12 @@
 
 > 参考: https://www.cnblogs.com/en-heng/p/5719101.html 
 
+> 算法基础: 
+
+>    https://www.joinquant.com/study     
+>    https://www.ricequant.com/courses
+
+
 - KNN 算法
     
     邻近算法，或者说K最近邻(kNN，k-NearestNeighbor)分类算法是数据挖掘分类技术中最简单的方法之一。

@@ -31,14 +31,14 @@ $samples = [[2010], [2011], [2012], [2013], [2014], [2015],[2016]];
 /*
 在labels中存入每年的股价涨势
 */
-$labels = [1.1, 1.2, 2.1, 3.1, 3.3, 4.1,5.1];
+$labels = [123.5, 124.5,134.5,144,144.7, 154.5,110.5];
 /*
 逼近线性模型进行预测
 */
 $regression = new LeastSquares();
 
 //$regression = new SVR(Kernel::LINEAR);
-$regression = new SVR(Kernel::LINEAR);
+//$regression = new SVR(Kernel::LINEAR);
 /* 对其进行训练   */
 $regression->train($samples, $labels);
 /*
