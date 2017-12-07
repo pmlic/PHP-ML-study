@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 
 use Phpml\Classification\Ensemble\RandomForest;
 use Phpml\Dataset\CsvDataset;
@@ -7,14 +6,13 @@ use Phpml\Dataset\CsvDataset;
 require_once 'vendor/autoload.php';
 /*require_once 'ArrayToCsv/ArrayToCsv.php';*/
 $dataset = new CsvDataset('./data/for_php_train.csv',5,true); //读取学习数据
-$testset = new CsvDataset('./data/for_php_test.csv',5,true);  // 读取要测试的数据
+$testset = new CsvDataset('./data/for_php_test.csv',4,true);  // 读取要测试的数据
 
 $sample = $dataset->getSamples();
 $label = $dataset->getTargets();
 
 $RandomForest = new RandomForest();
 $RandomForest->train($sample,$label);
-$RandomForest->train($dataset1->getSamples(),$label);
 
 $result = $RandomForest->predict($testset->getSamples()); //预测结果
 //var_dump($result);
