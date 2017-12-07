@@ -172,3 +172,8 @@
 
 > php-ML Apriori 关联规则算法 使用如 index.php
 > php-ML Apriori 关联规则算法 使用如 apriori.php
+
+
+- NB算法–朴素贝叶斯算法 [NB](./Nb.md)
+
+> php-ML 朴素贝叶斯分类算法  使用如 nb.php
