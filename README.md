@@ -177,3 +177,7 @@
 - NB算法–朴素贝叶斯算法 [NB](./Nb.md)
 
 > php-ML 朴素贝叶斯分类算法  使用如 nb.php
+
+- DecisionTree (CART)–决策树算法 [CART](./CART.md)
+
+> php-ML 决策树算法  使用如 cart.php
