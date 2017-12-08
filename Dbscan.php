@@ -2,6 +2,10 @@
 
 use pf\arr\PFarr;
 use Phpml\Clustering\DBSCAN;
+use Phpml\Math\Distance\Chebyshev;
+use Phpml\Math\Distance\Euclidean;
+use Phpml\Math\Distance\Manhattan;
+use Phpml\Math\Distance\Minkowski;
 
 require './vendor/autoload.php';
 
@@ -32,7 +36,7 @@ $samples = [
     [116.474355, 39.962825],
     [116.400651, 40.008559]
 ];
-$dbscan = new DBSCAN($epsilon = 0.1, $minSamples = 3);
+$dbscan = new DBSCAN($epsilon = 0.1, $minSamples = 3, new Minkowski());
 $data = $dbscan->cluster($samples);
 PFarr::dd($data);
 // return [0=>[[1, 1], ...], 1=>[[8, 7], ...]]

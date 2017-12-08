@@ -61,3 +61,7 @@ DBSCAN算法的显著优点是聚类能够有效处理噪声点和发现任意�
 
 ```
   PHP-ML 中的 应用 如 [切比雪夫距离](./euclidean.php)
+  
+4. 闵可夫斯基距离 - Minkowski
+
+  PHP-ML 中的 应用 如 [闵可夫斯基距离](./euclidean.php)

@@ -2,6 +2,7 @@
 use Phpml\Math\Distance\Chebyshev;
 use Phpml\Math\Distance\Euclidean;
 use Phpml\Math\Distance\Manhattan;
+use Phpml\Math\Distance\Minkowski;
 
 require './vendor/autoload.php';
 echo '<pre>';
@@ -40,3 +41,26 @@ $data_b = $chebyshev->distance($a2, $b2);
 
 echo $data_b.'<br>';
 // return 2
+
+/**
+ * 闵可夫斯基距离
+ */
+
+$a3 = [4, 6];
+$b3 = [2, 5];
+
+$chebyshev = new Minkowski();
+$data_c = $chebyshev->distance($a3, $b3);
+
+echo $data_c.'<br>';
+
+/**
+ * 闵可夫斯基距离 - 带参数
+ */
+$a4 = [6, 10, 3];
+$b4 = [2, 5, 5];
+
+$minkowski = new Minkowski($lambda = 5);
+$data_d =$minkowski->distance($a4, $b4);
+
+echo $data_d.'<br>';
