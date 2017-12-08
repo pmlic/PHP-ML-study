@@ -185,3 +185,7 @@
 - [聚类算法-KMeans](./clustering.md)
 
 > php-ML 聚类算法-KMeans  使用如 kmeans.php
+
+- [聚类算法-DBSCAN](./DBSCAN.md)
+
+> php-ML 聚类算法-DBSCAN  使用如 Dbscan.php
