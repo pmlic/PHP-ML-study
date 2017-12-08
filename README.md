@@ -181,3 +181,7 @@
 - DecisionTree (CART)–决策树算法 [CART](./CART.md)
 
 > php-ML 决策树算法  使用如 cart.php
+
+- [聚类算法-KMeans](./clustering.md)
+
+> php-ML 聚类算法-KMeans  使用如 kmeans.php
