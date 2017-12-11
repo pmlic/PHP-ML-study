@@ -192,3 +192,7 @@
 - [聚类算法-DBSCAN](./DBSCAN.md)
 
 > php-ML 聚类算法-DBSCAN  使用如 Dbscan.php
+
+- [混淆矩阵](./CM.md)
+
+> php-ML 混淆矩阵 使用如  ConfusionMatrix.php
