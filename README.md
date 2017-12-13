@@ -87,6 +87,7 @@
         Token Count Vectorizer–文本处理方式之一
         
         Tf-idf Transformer–文本方式处理方式之一，目的上解决减少频繁单词权重，增加冷门有决定因素单词权重
+        
     Dimensionality Reduction–降低维度
     
         PCA (Principal Component Analysis)–降低维度高效方法
