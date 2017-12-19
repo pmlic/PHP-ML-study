@@ -171,6 +171,7 @@
 
 - SVC 支持向量机分类器 [SVC](./SVC.md)
 
+> php-ML SVC算法实验 如: svc.php
 
 -  Apriori算法 关联规则 [Apriori](./Apriori.md)
 

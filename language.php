@@ -14,7 +14,8 @@ use Phpml\Tokenization\WordTokenizer;
 require_once 'vendor/autoload.php';
 
 $dataset = new CsvDataset('./data/languages.csv', 1); //导入学习数据
-//WordTokenizer 分词器 TokenCountVectorizer 向量器
+//WordTokenizer 分词器
+// TokenCountVectorizer 向量器
 $vectorizer = new TokenCountVectorizer(new WordTokenizer());
 
 $tfIdfTransformer = new TfIdfTransformer();
