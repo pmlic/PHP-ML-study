@@ -32,6 +32,7 @@ $tfIdfTransformer->transform($samples);
 $dataset = new ArrayDataset($samples, $dataset->getTargets());
 
 $randomSplit = new StratifiedRandomSplit($dataset, 0.1);  //样本分类
+
 $classifier = new SVC(Kernel::RBF, 10000);
 
 $classifier->train($randomSplit->getTrainSamples(), $randomSplit->getTrainLabels());
