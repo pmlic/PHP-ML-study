@@ -17,12 +17,19 @@ $samples = [
     'engine3',
     '테스트',
     '中文',
+    '中国人',
+    '中人',
+    '中',
 ];
-$labels = ['英文', '英文','英文','英文','韩语', '中文'];
+$labels = ['英文', '英文','英文','英文','韩语', '中文','中文','中文','中文'];
 
+/**
+ * 新建一个向量机 分词器
+ */
 $vectorizer = new TokenCountVectorizer(new WordTokenizer());
 $vectorizer->fit($samples);
 $vectorizer->transform($samples);
+
 $transformer = new TfIdfTransformer($samples);
 $transformer->fit($samples);
 $transformer->transform($samples);
@@ -32,7 +39,8 @@ $classifier = new SVC(Kernel::RBF, 10000);
 $classifier->train($samples,$labels);
 
 
-$testData = ['中文'];
+$testData = ['中'];
+
 $vectorizer->fit($testData);
 $vectorizer->transform($testData);
 

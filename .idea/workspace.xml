@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55d89a38-8032-42d0-80c6-847cfb8d8662" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TfIdfTransformer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TokenCountVectorizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language-simple.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/php-ai/php-ml" afterPath="$PROJECT_DIR$/vendor/php-ai/php-ml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language.php" afterPath="$PROJECT_DIR$/language.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svc.php" afterPath="$PROJECT_DIR$/svc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language-simple.php" afterPath="$PROJECT_DIR$/language-simple.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="language-simple.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="language-simple.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/language-simple.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="574">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#6#23#0#PHP" expanded="true" />
               </folding>
@@ -55,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TfIdfTransformer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TfIdfTransformer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TfIdfTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -147,8 +142,8 @@
         <option value="$PROJECT_DIR$/svc.php" />
         <option value="$PROJECT_DIR$/TfIdfTransformer.php" />
         <option value="$PROJECT_DIR$/language.php" />
-        <option value="$PROJECT_DIR$/language-simple.php" />
         <option value="$PROJECT_DIR$/TokenCountVectorizer.php" />
+        <option value="$PROJECT_DIR$/language-simple.php" />
       </list>
     </option>
   </component>
@@ -238,17 +233,18 @@
       <workItem from="1512720037626" duration="696000" />
       <workItem from="1513226008152" duration="5583000" />
       <workItem from="1513662405201" duration="8628000" />
-      <workItem from="1513733738497" duration="4390000" />
+      <workItem from="1513733738497" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30862000" />
+    <option name="totallyTimeSpent" value="31199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19731183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19731183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -675,12 +671,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/language-simple.php">
+    <entry file="file://$PROJECT_DIR$/TfIdfTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#6#23#0#PHP" expanded="true" />
+            <element signature="e#7#24#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,12 +691,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TfIdfTransformer.php">
+    <entry file="file://$PROJECT_DIR$/language-simple.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="574">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#7#24#0#PHP" expanded="true" />
+            <element signature="e#6#23#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
