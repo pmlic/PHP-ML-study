@@ -4,12 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8993eba4a5f87d759d48599ccc7d98cd
+class ComposerStaticInitef5f5a82083fb5c4886a92460f1915aa
 {
     public static $prefixLengthsPsr4 = array (
         'p' => 
         array (
             'pf\\arr\\' => 7,
+        ),
+        'P' => 
+        array (
+            'Phpml\\' => 6,
         ),
     );
 
@@ -18,24 +22,17 @@ class ComposerStaticInit8993eba4a5f87d759d48599ccc7d98cd
         array (
             0 => __DIR__ . '/..' . '/nancheng/pfinal-array/src',
         ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'P' => 
+        'Phpml\\' => 
         array (
-            'Phpml' => 
-            array (
-                0 => __DIR__ . '/..' . '/php-ai/php-ml/src',
-            ),
+            0 => __DIR__ . '/..' . '/php-ai/php-ml/src/Phpml',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8993eba4a5f87d759d48599ccc7d98cd::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8993eba4a5f87d759d48599ccc7d98cd::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit8993eba4a5f87d759d48599ccc7d98cd::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitef5f5a82083fb5c4886a92460f1915aa::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitef5f5a82083fb5c4886a92460f1915aa::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
