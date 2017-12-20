@@ -1,5 +1,4 @@
 <?php
-
 use Phpml\Classification\SVC;
 use Phpml\CrossValidation\StratifiedRandomSplit;
 use Phpml\Dataset\ArrayDataset;
