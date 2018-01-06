@@ -1,5 +1,10 @@
-# PHP-ML 学习
+# PHP-ML 学习:
 
+如果您认为质量不错，读后觉得收获很大，对工作很有帮助，可能会有工资的涨幅能，不妨小额赞助我一杯咖啡，让我有动力继续写出高质量的文章。
+
+|微信|支付宝|狗狗币|
+|----|----|----|
+|![](./images/er.png)|![](./images/zfb.png)|![](./images/dog.png)|
 参考: 
  PHP-ML - 机器学习PHP库 http://doc.celerstar.com/website/soft/php-ml/
  
