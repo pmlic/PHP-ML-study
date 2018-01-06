@@ -4,7 +4,7 @@
 
 |微信|支付宝|狗狗币|
 |----|----|----|
-|![](./images/er.png) | ![](./images/zfb.png) | ![](./images/dog.png)|
+|![](./images/wx1.png) | ![](./images/zfb.png) | ![](./images/dog.png)|
 
 参考: 
  PHP-ML - 机器学习PHP库 http://doc.celerstar.com/website/soft/php-ml/
