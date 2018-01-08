@@ -19,19 +19,19 @@ DBSCAN算法的显著优点是聚类能够有效处理噪声点和发现任意�
 
 > 应用领域有数学和计算机两个方面。计算公式gcd(a,b) = gcd(b,a mod b)。
     
-  PHP-ML 中的 应用 如 [欧几里德距离](./euclidean.php)
+  PHP-ML 中的 应用 如 [欧几里德距离](../euclidean.php)
   
 2. 曼哈顿距离 - Manhattan
 
-   ![](./image/mh.jpg)
+   ![](../image/mh.jpg)
 
    图中红线代表曼哈顿距离，绿色代表欧氏距离，也就是直线距离，而蓝色和黄色代表等价的曼哈顿距离
     
-   PHP-ML 中的 应用 如 [曼哈顿距离](./euclidean.php)
+   PHP-ML 中的 应用 如 [曼哈顿距离](../euclidean.php)
    
 3. 切比雪夫距离 - Chebyshev distance 
 
-    ![](./image/qb.jpg)
+    ![](../image/qb.jpg)
     
 ```
 国际象棋玩过么？
@@ -60,8 +60,8 @@ DBSCAN算法的显著优点是聚类能够有效处理噪声点和发现任意�
 　　D = 1     2     2
 
 ```
-  PHP-ML 中的 应用 如 [切比雪夫距离](./euclidean.php)
+  PHP-ML 中的 应用 如 [切比雪夫距离](../euclidean.php)
   
 4. 闵可夫斯基距离 - Minkowski
 
-  PHP-ML 中的 应用 如 [闵可夫斯基距离](./euclidean.php)
+  PHP-ML 中的 应用 如 [闵可夫斯基距离](../euclidean.php)

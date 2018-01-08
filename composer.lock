@@ -57,23 +57,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "c4ad117d285e723fa56ca334334bacc6cc21e089"
+                "reference": "5a691635d7633f964404e9a743d44d1da2e66e54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/php-ai/php-ml/c4ad117d285e723fa56ca334334bacc6cc21e089.zip",
-                "reference": "c4ad117d285e723fa56ca334334bacc6cc21e089",
+                "url": "https://files.phpcomposer.com/files/php-ai/php-ml/5a691635d7633f964404e9a743d44d1da2e66e54.zip",
+                "reference": "5a691635d7633f964404e9a743d44d1da2e66e54",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.4",
-                "phpunit/phpunit": "^6.4",
-                "symplify/coding-standard": "dev-master as 2.5",
-                "symplify/easy-coding-standard": "dev-master as 2.5",
-                "symplify/package-builder": "dev-master#3604bea as 2.5"
+                "phpstan/phpstan-shim": "^0.9",
+                "phpunit/phpunit": "^6.5",
+                "symplify/coding-standard": "^3.1",
+                "symplify/easy-coding-standard": "^3.1"
             },
             "type": "library",
             "autoload": {
@@ -102,7 +101,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2017-12-05T20:09:06+00:00"
+            "time": "2018-01-07T09:57:14+00:00"
         }
     ],
     "packages-dev": [],

@@ -171,7 +171,7 @@
 > php-ML 二乘法算法 使用如  car_price.php 
 > php-ML 回归预测算法 使用如  stock.php 
 
-- SVM 支持向量回归算法  [SVM](./SVR.md)
+- SVM 支持向量回归算法  [SVM](doc/SVR.md)
 
 > php-ML SVR算法实验 使用如  svr.php 
 
@@ -179,28 +179,30 @@
 
 > php-ML SVC算法实验 如: svc.php
 
--  Apriori算法 关联规则 [Apriori](./Apriori.md)
+-  Apriori算法 关联规则 [Apriori](doc/Apriori.md)
 
 > php-ML Apriori 关联规则算法 使用如 index.php
 > php-ML Apriori 关联规则算法 使用如 apriori.php
 
 
-- NB算法–朴素贝叶斯算法 [NB](./Nb.md)
+- NB算法–朴素贝叶斯算法 [NB](doc/Nb.md)
 
 > php-ML 朴素贝叶斯分类算法  使用如 nb.php
 
-- DecisionTree (CART)–决策树算法 [CART](./CART.md)
+- DecisionTree (CART)–决策树算法 [CART](doc/CART.md)
 
 > php-ML 决策树算法  使用如 cart.php
 
-- [聚类算法-KMeans](./clustering.md)
+- [聚类算法-KMeans](doc/clustering.md)
 
 > php-ML 聚类算法-KMeans  使用如 kmeans.php
 
-- [聚类算法-DBSCAN](./DBSCAN.md)
+- [聚类算法-DBSCAN](doc/DBSCAN.md)
 
 > php-ML 聚类算法-DBSCAN  使用如 Dbscan.php
 
-- [混淆矩阵](./CM.md)
+- [混淆矩阵](doc/CM.md)
 
 > php-ML 混淆矩阵 使用如  ConfusionMatrix.php
+
+- [交叉验证](./doc/Cross.md)
