@@ -206,3 +206,12 @@
 > php-ML 混淆矩阵 使用如  ConfusionMatrix.php
 
 - [交叉验证](./doc/Cross.md)
+
+
+## 遇到的bug 和 坑
+
+> Imputer.php 文件中 加 if 判断  防止: 报错   [例子:](bug/imputer.php)
+
+>  ClassificationReport.php 加判断 防止: 报错
+
+
