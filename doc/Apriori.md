@@ -4,6 +4,7 @@
 关联规则挖掘是数据挖掘中的一个非常重要的研究方向，也是一个由来已久的话题，它的主要任务就是设法发现事物之间的内在联系。
 
 > 参考： https://www.cnblogs.com/qwertWZ/p/4510857.html#_label1
+
 > 参考： http://blog.csdn.net/lizhengnanhua/article/details/9061755
 
 在电商行业里，有一个著名的公式：**销售额=UV * 转化率 * 客单价**。
