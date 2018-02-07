@@ -123,15 +123,15 @@
         
     Math–数学结构与类型
     
-    Distance
-    
-    Matrix
-    
-    Set
-    
-    Statistic
-    
-    Linear Algebra
+        Distance-距离
+        
+        Matrix-矩阵
+        
+        Set-组
+        
+        Statistic-统计
+        
+        Linear Algebra
     
 ```
 
@@ -207,6 +207,9 @@
 
 - [交叉验证](./doc/Cross.md)
 
+> php-ML 多层感知器 代码如: MLP.php
+
+- [多层感知器](./doc/MLP.md)
 
 ## 遇到的bug 和 坑
 
