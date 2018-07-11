@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "b434db34c0e62ffcf4b9b94a7cec28be",
@@ -57,27 +57,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-ai/php-ml.git",
-                "reference": "ec091b5ea3d3bfa8f3168c476cb0c71725b3d344"
+                "reference": "8fdb3d11fcac42e12aebd7f86d5058fd4921e003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/php-ai/php-ml/ec091b5ea3d3bfa8f3168c476cb0c71725b3d344.zip",
-                "reference": "ec091b5ea3d3bfa8f3168c476cb0c71725b3d344",
+                "url": "https://files.phpcomposer.com/files/php-ai/php-ml/8fdb3d11fcac42e12aebd7f86d5058fd4921e003.zip",
+                "reference": "8fdb3d11fcac42e12aebd7f86d5058fd4921e003",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
+                "phpbench/phpbench": "^0.14.0",
+                "phpstan/phpstan-phpunit": "^0.9.4",
                 "phpstan/phpstan-shim": "^0.9",
+                "phpstan/phpstan-strict-rules": "^0.9.0",
                 "phpunit/phpunit": "^7.0.0",
-                "symplify/coding-standard": "^3.1",
-                "symplify/easy-coding-standard": "^3.1"
+                "symplify/coding-standard": "^4.4",
+                "symplify/easy-coding-standard": "^4.4"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Phpml\\": "src/Phpml"
+                    "Phpml\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -101,7 +104,7 @@
                 "machine learning",
                 "pattern recognition"
             ],
-            "time": "2018-02-06T19:39:25+00:00"
+            "time": "2018-07-04T21:42:22+00:00"
         }
     ],
     "packages-dev": [],

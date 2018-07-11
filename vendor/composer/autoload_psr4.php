@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'pf\\arr\\' => array($vendorDir . '/nancheng/pfinal-array/src'),
-    'Phpml\\' => array($vendorDir . '/php-ai/php-ml/src/Phpml'),
+    'Phpml\\' => array($vendorDir . '/php-ai/php-ml/src'),
 );

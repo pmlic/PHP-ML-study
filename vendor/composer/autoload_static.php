@@ -24,7 +24,7 @@ class ComposerStaticInit1ea4b2bb20f5bb883fbdb6dd3afbfada
         ),
         'Phpml\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-ai/php-ml/src/Phpml',
+            0 => __DIR__ . '/..' . '/php-ai/php-ml/src',
         ),
     );
 
