@@ -16,7 +16,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/Neroxiezi/pfinal-array/13e2a85dc784986caeed28a8f6968f64516fddb2.zip",
+                "url": "https://api.github.com/repos/Neroxiezi/pfinal-array/zipball/13e2a85dc784986caeed28a8f6968f64516fddb2",
                 "reference": "13e2a85dc784986caeed28a8f6968f64516fddb2",
                 "shasum": ""
             },
@@ -61,7 +61,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/php-ai/php-ml/8fdb3d11fcac42e12aebd7f86d5058fd4921e003.zip",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/8fdb3d11fcac42e12aebd7f86d5058fd4921e003",
                 "reference": "8fdb3d11fcac42e12aebd7f86d5058fd4921e003",
                 "shasum": ""
             },
