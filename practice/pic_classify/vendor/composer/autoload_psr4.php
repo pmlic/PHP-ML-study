@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'pf\\arr\\' => array($vendorDir . '/nancheng/pfinal-array/src'),
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Spatie\\TemporaryDirectory\\' => array($vendorDir . '/spatie/temporary-directory/src'),
     'Spatie\\Image\\' => array($vendorDir . '/spatie/image/src'),

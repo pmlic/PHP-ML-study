@@ -1,5 +1,9 @@
 {
     "require": {
-        "spatie/image": "^1.5"
+        "spatie/image": "^1.5",
+        "nancheng/pfinal-array": "^0.2.0"
+    },
+    "autoload":{
+        "files":["common/helper.php"]
     }
 }

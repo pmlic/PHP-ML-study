@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "439b7e3726663c914fd460a347d9b6aa",
+    "content-hash": "5c531fc78fdef35db2841fa09ec7560f",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -285,6 +285,51 @@
                 "processing"
             ],
             "time": "2018-02-12T23:28:25+00:00"
+        },
+        {
+            "name": "nancheng/pfinal-array",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Neroxiezi/pfinal-array.git",
+                "reference": "13e2a85dc784986caeed28a8f6968f64516fddb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Neroxiezi/pfinal-array/zipball/13e2a85dc784986caeed28a8f6968f64516fddb2",
+                "reference": "13e2a85dc784986caeed28a8f6968f64516fddb2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\arr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "小九",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "http://friday-go.cc/"
+                }
+            ],
+            "description": "This is a PHP array manipulation middleware",
+            "homepage": "https://github.com/Neroxiezi/pfinal-array",
+            "keywords": [
+                "Q哥",
+                "array",
+                "pfinal",
+                "php-array",
+                "南丞"
+            ],
+            "time": "2017-11-10T09:37:54+00:00"
         },
         {
             "name": "psr/http-message",

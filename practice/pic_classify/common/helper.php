@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: 运营部
- * Date: 2018/7/20
- * Time: 14:39
+ * Date: 2018/7/23
+ * Time: 15:37
  *
  *
  *                      _ooOoo_
@@ -29,5 +29,15 @@
  *
  */
 
-require __DIR__.'/vendor/autoload.php';
-
+if (!function_exists('dd')) {
+    function dd($arr)
+    {
+        if (function_exists('dump')) {
+            dump($arr);exit;
+        }
+        echo '<pre>';
+        var_dump($arr);
+        echo '</pre>';
+        exit;
+    }
+}

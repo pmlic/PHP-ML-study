@@ -1,0 +1,34 @@
+{
+    "name": "nancheng/pfinal-array",
+    "description": "This is a PHP array manipulation middleware",
+    "authors": [
+        {
+            "name": "小九",
+            "email": "Lampxiezi@163.com",
+            "homepage": "http://friday-go.cc/"
+        }
+    ],
+    "homepage":"https://github.com/Neroxiezi/pfinal-array",
+    "license": "MIT",
+    "keywords": [
+        "pfinal",
+        "南丞",
+        "Q哥",
+        "array",
+        "php-array"
+    ],
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pf\\arr\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "example\\": "example"
+        }
+    }
+}

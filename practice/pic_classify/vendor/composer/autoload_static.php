@@ -8,9 +8,14 @@ class ComposerStaticInitc1f379c18816b9fe9bebbd9cf938e4d1
 {
     public static $files = array (
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'b0bb28d4fd1217fce1b0755b3211f6a6' => __DIR__ . '/../..' . '/common/helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'p' => 
+        array (
+            'pf\\arr\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Component\\Process\\' => 26,
@@ -39,6 +44,10 @@ class ComposerStaticInitc1f379c18816b9fe9bebbd9cf938e4d1
     );
 
     public static $prefixDirsPsr4 = array (
+        'pf\\arr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nancheng/pfinal-array/src',
+        ),
         'Symfony\\Component\\Process\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/process',

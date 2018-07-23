@@ -288,6 +288,53 @@
         ]
     },
     {
+        "name": "nancheng/pfinal-array",
+        "version": "v0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Neroxiezi/pfinal-array.git",
+            "reference": "13e2a85dc784986caeed28a8f6968f64516fddb2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Neroxiezi/pfinal-array/zipball/13e2a85dc784986caeed28a8f6968f64516fddb2",
+            "reference": "13e2a85dc784986caeed28a8f6968f64516fddb2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2017-11-10T09:37:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "pf\\arr\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "小九",
+                "email": "Lampxiezi@163.com",
+                "homepage": "http://friday-go.cc/"
+            }
+        ],
+        "description": "This is a PHP array manipulation middleware",
+        "homepage": "https://github.com/Neroxiezi/pfinal-array",
+        "keywords": [
+            "Q哥",
+            "array",
+            "pfinal",
+            "php-array",
+            "南丞"
+        ]
+    },
+    {
         "name": "psr/http-message",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
